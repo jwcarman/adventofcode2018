@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/jwcarman/adventofcode2020/workflows/Master%20Build/badge.svg)](https://github.com/jwcarman/adventofcode2020/actions?query=workflow%3A%22Master+Build%22)
+[![Build Status](https://github.com/jwcarman/adventofcode2018/workflows/Master%20Build/badge.svg)](https://github.com/jwcarman/adventofcode2018/actions?query=workflow%3A%22Master+Build%22)
 [![License](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 # Advent of Code 2018
