@@ -56,12 +56,12 @@ class Day2Test {
 
     private fun isOffByOneCharacter(it: Pair<String, String>) = distance(it) == 1
 
-    private fun commonLetters(strings: Pair<String,String>) : String = characterPairsOf(strings)
+    private fun commonLetters(strings: Pair<String, String>): String = characterPairsOf(strings)
         .filter { it.first == it.second }
         .map { it.first }
         .joinToString(separator = "")
 
-    private fun distance(strings: Pair<String,String>) : Int = characterPairsOf(strings)
+    private fun distance(strings: Pair<String, String>): Int = characterPairsOf(strings)
         .map { it.first - it.second }
         .map { it.absoluteValue }
         .sum()
